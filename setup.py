@@ -9,6 +9,7 @@ with open("./README.rst") as f:
     readme = f.read()
 
 setup(
+    version="2.2.0b",
     name="axe-selenium-python",
     use_scm_version=True,
     setup_requires=["setuptools_scm"],
