@@ -42,7 +42,7 @@ def test_run_axe_sample_page_firefox(firefox_driver):
 
     assert len(data["inapplicable"]) == 61
     assert len(data["incomplete"]) == 0
-    assert len(data["passes"]) == 7
+    assert len(data["passes"]) == 6
     assert len(data["violations"]) == 8
 
 
@@ -53,7 +53,7 @@ def test_run_axe_sample_page_chrome(chrome_driver):
 
     assert len(data["inapplicable"]) == 61
     assert len(data["incomplete"]) == 0
-    assert len(data["passes"]) == 7
+    assert len(data["passes"]) == 6
     assert len(data["violations"]) == 8
 
 
